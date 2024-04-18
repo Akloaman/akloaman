@@ -1,8 +1,10 @@
+/* Setting the font family and background color for the entire body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
 
+/* Styling for the header section */
 header {
     background-color: #333;
     color: #fff;
@@ -10,10 +12,12 @@ header {
     text-align: center;
 }
 
+/* Styling for the main heading */
 h1 {
     margin: 0;
 }
 
+/* Styling for the main content container */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -22,6 +26,7 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for the profile image */
 .profile-img {
     display: block;
     margin: 0 auto;
@@ -29,24 +34,29 @@ h1 {
     border-radius: 50%;
 }
 
+/* Styling for each section */
 .section {
     margin-top: 30px;
 }
 
+/* Styling for section headings */
 .section h2 {
     margin-bottom: 10px;
 }
 
+/* Styling for section paragraphs */
 .section p {
     margin-bottom: 20px;
 }
 
+/* Styling for the skills table */
 .skills-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
+/* Styling for table headers and cells */
 .skills-table th,
 .skills-table td {
     padding: 8px;
@@ -54,15 +64,18 @@ h1 {
     border-bottom: 1px solid #ddd;
 }
 
+/* Styling for table headers */
 .skills-table th {
     background-color: #f5f5f5;
 }
 
+/* Styling for the button section */
 .section-button {
     text-align: center;
     margin-top: 20px;
 }
 
+/* Styling for buttons */
 .section-button button {
     padding: 10px 20px;
     background-color: #333;
@@ -71,14 +84,17 @@ h1 {
     cursor: pointer;
 }
 
+/* Hover effect for buttons */
 .section-button button:hover {
     background-color: #555;
 }
 
+/* Styling for contact information */
 .contact-info {
     margin-top: 30px;
 }
 
+/* Styling for contact information paragraphs */
 .contact-info p {
     margin-bottom: 10px;
 }
